@@ -83,7 +83,6 @@ public class PlayerCtrl : MonoBehaviour
         isDashAttack = false;
     }
 
-
     public void Move()
     {
         if (animator != null && !isSkill && !isComboAttack && !isDashAttack)
@@ -108,6 +107,5 @@ public class PlayerCtrl : MonoBehaviour
         h = input.x;
         v = input.y;
     }
-
 
 }
